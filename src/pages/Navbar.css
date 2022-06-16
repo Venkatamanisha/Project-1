@@ -1,0 +1,24 @@
+.navbar-nav li a{
+    font-size: 17px;
+  }
+  .navbar-brand{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* card */
+  .card{
+    transition: all 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+
+  /* products */
+  .product image{
+    transition: all 0.5s ease;
+  }
+  .product image:hover{
+    transform: scale(1.1);
+  }
